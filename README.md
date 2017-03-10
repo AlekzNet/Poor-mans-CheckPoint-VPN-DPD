@@ -13,4 +13,4 @@ The script checks if the VPN peer is responding to ping. If not, it checks `ATTE
 
 If the firewall is not the Active member of the cluster, nothing happens, the cycle goes to sleep for 600 seconds.
 
-On the CheckPoint firewall the tunnel is configured using the Center - Two satellites topology.
+On the CheckPoint firewall the tunnels are configured using the Center - Two satellites topology (no explicit MEP).
