@@ -1,4 +1,4 @@
-# Poor-man-CheckPoint-VPN-DPD
+# Poor-mans-CheckPoint-VPN-DPD
 Shell VPN DPD implementation for CheckPoint firewall.
 
 Old CheckPoint software does not support MEP, DPD and permanent tunnels between CP and non-CP devices. This script helps to create a failover configuration for the following topology:
