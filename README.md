@@ -9,7 +9,7 @@ Net1 - CPFW(HA) - Internet -               - Net2
                              \ NonCP-FW2 /
 ```
 
-The script checks if the VPN peer is responding to ping. If not, it checks `ATTEMPT` times with a timeout of `DELAY` seconds, then clears the corresponding IKE SA, and checks again in 60 seconds.
+The script checks if the VPN peer is responding to ping. If not, it checks `ATTEMPTS` times with a timeout of `DELAY` seconds, then clears the corresponding IKE SA, and checks again in 60 seconds.
 
 If the firewall is not the Active member of the cluster, nothing happens, the cycle goes to sleep for 600 seconds.
 
