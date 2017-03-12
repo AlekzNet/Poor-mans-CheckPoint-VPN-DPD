@@ -16,6 +16,7 @@ ismaster() {
 
 vpn_reset() {
 	echo "resetting $ip"
+	vpn shell /tunnels/delete/IPSec/peer $ip
 	vpn shell /tunnels/delete/IKE/peer $ip
 }
 
