@@ -12,7 +12,7 @@ peer_test() {
 }
 
 ismaster() {
-	[ `cphaprob state | awk '/(local)/{print $NF}'` = "Active" ] || return true
+	[ `cphaprob state | awk '/(local)/{print $NF}'` = "Active" ] || return 0
 }
 
 vpn_reset() {
